@@ -374,14 +374,8 @@ if page == "Overview":
         unsafe_allow_html=True
     )
 
-    a, b, c, d = st.columns(4)
+    b, c, d = st.columns(3)
 
-    with a:
-        show_metric(
-            "Test Accuracy",
-            f'{metrics["test_accuracy"]:.1%}',
-            "Correct classifications"
-        )
     with b:
         show_metric(
             "Test Recall",
