@@ -648,12 +648,11 @@ elif page == "Model Insights":
     )
 
     names = {
-        "Accuracy": "test_accuracy",
-        "Precision": "test_precision",
-        "Recall": "test_recall",
-        "F1-score": "test_f1",
-        "ROC-AUC": "test_roc_auc",
-        "PR-AUC": "test_pr_auc"
+    "Precision": "test_precision",
+    "Recall": "test_recall",
+    "F1-score": "test_f1",
+    "ROC-AUC": "test_roc_auc",
+    "PR-AUC": "test_pr_auc"
     }
 
     metric_data = pd.DataFrame([
