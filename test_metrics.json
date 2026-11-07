@@ -1,0 +1,25 @@
+{
+  "test_accuracy": 0.7673277589662083,
+  "test_precision": 0.053703703703703705,
+  "test_recall": 0.15151515151515152,
+  "test_f1": 0.07929997265518185,
+  "test_roc_auc": 0.4175541321055807,
+  "test_pr_auc": 0.056087438021382933,
+  "threshold": 0.5625541090788845,
+  "test_samples": 14471,
+  "test_late_rate": 0.06613226452905811,
+  "confusion_matrix": [
+    [
+      10959,
+      2555
+    ],
+    [
+      812,
+      145
+    ]
+  ],
+  "true_negative": 10959,
+  "false_positive": 2555,
+  "false_negative": 812,
+  "true_positive": 145
+}
