@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
-ARTIFACTS = ROOT / "model_artifacts"
+ARTIFACTS = ROOT
 
 BG = "#0B1220"
 SURFACE = "#152234"
